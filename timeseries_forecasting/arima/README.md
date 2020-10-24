@@ -12,7 +12,7 @@ Initially run in the root directory (where the Dockerfile is):
 
 This will create a docker image named `arima`.You can run this image via
 
-`docker run -p 8888:8888 -v </path/to/arima>:. jupyter_docker`
+`docker run -p 8888:8888 -v </path/to/arima>:/workspace arima`
 
 (replace </path/to/arima> with your local path to this `arima` directory. This connects the port 8888 *inside the docker caontainer* with your local port 8888. So you can access the jupyert server within docker from your browser. Also it mounts this directory to the home directory inside the docker contaner, so changes you do within the docker container will be reflected in this directory.
 
