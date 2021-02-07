@@ -16,3 +16,4 @@ The source data is not privided with the repo. It can be downloaded manually fro
 On small dataset:
 
 - Decisiontree: ~0.69
+- Naive Bayes: ~0.58 (modelling potentially has some issues and can be improved)
