@@ -1,2 +1,2 @@
 # data_science_notebooks
-An unorganised collection of data science and analytics notebooks
+A mostly unorganised collection of my data science and analytics notebooks
