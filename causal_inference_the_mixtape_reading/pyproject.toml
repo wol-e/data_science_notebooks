@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "causal-inference-the-mixtape-reading"
+version = "0.1.0"
+description = ""
+authors = ["Wolfgang Spindeler"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">= 3.11"
+statsmodels = "^0.14.4"
+matplotlib = "^3.10.1"
+pandas = "^2.2.3"
+jupyterlab = "^4.3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
